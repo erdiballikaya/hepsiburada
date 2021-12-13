@@ -61,7 +61,6 @@ class ProductsComponent extends Component {
     }
 
     nextPrevious(num){
-        debugger
         var pageNum = num;
         var newStart = (pageNum * 12) - 12;
         var newEnd = pageNum * 12;
