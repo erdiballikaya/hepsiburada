@@ -56,7 +56,7 @@ class ProductsComponent extends Component {
         var pageNum = num.currentTarget.innerText;
         var newStart = (pageNum * 12) - 12;
         var newEnd = pageNum * 12;
-        this.setState({sliceStart: newStart, sliceEnd: newEnd, currentPage: num})
+        this.setState({sliceStart: newStart, sliceEnd: newEnd, currentPage: pageNum})
     }
 
     nextPrevious(num){
@@ -98,11 +98,11 @@ class ProductsComponent extends Component {
                     />
                 ))}
                 <div className="pagination">
-                    <a href="#" onClick={() => this.nextPrevious(this.state.currentPage != 1 ? this.state.currentPage - 1 : 1) }>{"<"}</a>
+                    <a href="#" className='prev' onClick={() => this.nextPrevious(this.state.currentPage != 1 ? this.state.currentPage - 1 : 1) }>{"<"}</a>
                     {    
                         menuItems
                     }
-                    <a href="#" onClick={() => this.nextPrevious(this.state.currentPage != parseInt((this.props.tags.length / 12) + 1) ? this.state.currentPage + 1 : parseInt((this.props.tags.length / 12) + 1)) }>{">"}</a>
+                    <a href="#" className='next' onClick={() => this.nextPrevious(this.state.currentPage != parseInt((this.props.tags.length / 12) + 1) ? this.state.currentPage + 1 : parseInt((this.props.tags.length / 12) + 1)) }>{">"}</a>
                 </div>
             </div>
         )
