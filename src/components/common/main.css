@@ -1,0 +1,793 @@
+.MainLogo{
+  position: absolute;
+  left: 5.56%;
+  right: 79.76%;
+  top: 1.56%;
+  bottom: 96.68%;
+}
+
+.Logo{
+  position: absolute;
+  width: 211.52px;
+  height: 35px;
+  left: 80px;
+  top: 31px;
+}
+
+.Header{
+  position: absolute;
+  width: 1440px;
+  height: 96px;
+  left: 0px;
+  top: 0px;
+}
+
+.HeaderTable{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 95.17%;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+  grid-area: header;
+}
+
+.Navi{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 95.17%;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35);
+}
+
+.SearchBox{
+  width: 90%;
+  height: 48px;
+  float: left;
+  background: #EEEEEE;
+  border: 0;
+}
+
+input:focus{
+  outline: none;
+}
+
+.Search{
+  position: absolute;
+  width: 699px;
+  height: 48px;
+  left: 445px;
+  top: 24px;
+  background: #EEEEEE;
+  border: 0;
+  border-radius: 100px;
+}
+
+.Main{
+  position: relative;
+  width: 1440px;
+  height: 1987px;
+  background: #FFFFFF;
+  margin: auto;
+}
+
+.Vector{
+  position: absolute;
+  visibility: hidden;
+  left: 465px;
+  right: 943px;
+  top: 32px;
+  bottom: 1923px;    
+  background: #FFFFFF;
+  border-radius: 2px;
+}
+
+.Icon{
+  padding: 13px;
+  padding-left: 15px;
+  font-size: 13px;
+  color: gray;
+  background-repeat: no-repeat;
+  background-position: left center;
+  outline: 0;
+  float: left;
+
+}
+
+.Input{
+  position: absolute;
+  color: gray;
+  float:left;
+
+}
+::placeholder {
+  color: #B0B0B0;
+  font-family: 'Roboto', sans-serif;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-family: 'Roboto', sans-serif;
+  color: #B0B0B0;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */    
+  color: #B0B0B0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Cart{
+  position: absolute;
+  width: 124px;
+  height: 55px;
+  left: 1240px;
+  top: 16px;
+}
+
+.CartButtonText{
+  width: 118px;
+  height: 48px;
+  margin-left: 25%;
+  margin-top: 2%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 143%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #B0B0B0;
+  font-family: 'Roboto', sans-serif;  
+}
+
+.CartButton .CartCircle {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 4px;
+  border-radius: 50%;
+  background-color:#FF6000;
+  color: white;
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+}
+
+.CartButton .CartCircle .CircleText{
+  
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.SubHeader{
+  position: absolute;
+  width: 1279px;
+  height: 52px;
+  left: 81px;
+  top: 113px;
+}
+
+.SubHeader .PageTitle{
+  width: 303px;
+  height: 45px;
+  left: 81px;
+  top: 120px;
+  float: left;
+}
+
+.SubHeader .PageTitle .MainTitle{
+  width: 303px;
+  height: 0px;
+  left: 81px;
+  top: 120px;
+  
+  /* Page Title */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 100%;
+  /* or 28px */
+  
+  
+  color: #484848;
+}
+
+
+.SubHeader .PageTitle .SubTitle{
+  width: 170px;
+  height: 15px;
+  left: 81px;
+  top: 150px;
+  
+  /* SubTitle */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 100%;
+  /* identical to box height, or 15px */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #B0B0B0;
+  padding-top: 15px;
+}
+.OrderButton{
+
+  /* width: 120px;
+  left: calc(50% - 120px/2 + 580px);
+
+  bottom: 1826px;
+  
+  border: 1px solid #B4B4BB;
+  box-sizing: border-box;
+  border-radius: 4px; */
+}
+
+.OrderVector{
+  margin-left: 10px;
+  left: calc(50% - 5px/2 - 2.62px);
+  top: calc(50% - 10px/2 + 7px);
+}
+
+.Sidebar{
+  position: absolute;
+  width: 206px;
+  height: 159px;
+  left: 81px;
+  top: 199px;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 20px;
+  padding-left: 0px;
+  grid-area: menu;
+}
+
+.TagsText{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #484848;
+}
+
+.TagsList{    
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 20px;
+  padding-left: 0px;
+}
+
+.OrderText{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #484848;
+  margin-top: 24px;
+}
+
+.OrderList{    
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 20px;
+  padding-left: 0px;
+}
+
+.BrandText{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #484848;
+  margin-top: 24px;
+}
+
+.BrandList{    
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 20px;
+  padding-left: 0px;
+}
+
+.Tags ul li .TagsTextDefault{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 20px;
+  padding-left: 0px;
+  color: #484848;
+  text-decoration: none;
+}
+
+.Tags ul li .TagsTextClicked{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 20px;
+  padding-left: 0px;
+  color: red;
+  text-decoration: none;
+}
+
+.Brand ul li .TagsTextDefault{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 20px;
+  padding-left: 0px;
+  color: #484848;
+  text-decoration: none;
+}
+
+.Brand ul li .TagsTextClicked{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 20px;
+  padding-left: 0px;
+  color: red;
+  text-decoration: none;
+}
+
+.TagsTextDefault {
+  background: transparent;
+}
+.TagsTextClicked {
+  color: #FF6000;
+}
+
+.Products{
+  grid-area: main;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu menu main main main main'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  padding: 20px 0;
+}
+
+.SubHeaderMain{
+  grid-area: header;
+}  
+.Middle{
+    background-color: aqua;
+    float: left;
+    grid-area: main;
+}
+
+.Headers{
+    height: 200px;
+    width: 100%;
+}
+
+.HeaderItem{
+  width: 100%;
+  float: left;
+}
+
+.SubHeaderItem{
+  width: 100%;
+  float: left;
+}
+
+.MiddleGroup{
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+
+.SideMenuItem{
+  height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.MainItem{
+  width: 80%;
+  height: 50px;
+  float: left;
+}
+
+.Product{
+  width: 254px;
+  height: 472px;
+  left: 303px;
+  top: 180px;
+  display: inline-block;
+  vertical-align: text-top;
+  margin: 0 auto;
+}
+
+.Image{
+  width: 224px;
+  height: 332px;
+  left: calc(50% - 224px/2 - 290px);
+  top: 183px;
+  margin: auto;
+}
+.explanation{
+  width: 224px;
+  margin: auto;
+  margin-top: 13px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+.brandAndColor{
+  width: 224px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  margin:auto;
+  padding-top: 10px;
+}
+.priceInfo{
+  width: 224px;
+  margin: 13px;
+}
+.brandKey{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+}
+.brandValue{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.discountedPrice{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.price{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  /* or 138% */
+
+  text-decoration-line: line-through;
+
+  color: #9B9B9B;
+}
+
+.discountRate{  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+  color: #F90000;
+}
+
+.productComponentHover{
+  width: 224px;
+  height: 220px;
+  background-color: darksalmon;
+}
+
+.addToBasket{
+  display: table;
+  width: 233px;
+  height: 32px;
+  text-align: center;
+  background: rgba(255, 96, 0, 0.11);
+  border-radius: 8px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.basketButtonText{
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FF6000;
+}
+.addToBasketPassive{
+  display: table;
+  width: 233px;
+  height: 32px;
+  text-align: center;
+  background: rgba(126, 126, 126, 0.11);
+  border-radius: 8px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.basketButtonTextPassive{
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #B0B0B0;
+}
+.CartButton{
+  margin: auto;
+  top: 23px;   
+  border: 1px solid #B0B0B0;
+  border-radius: 4px;
+  color:#B0B0B0;
+  padding: 10px 26px;
+  position: relative;
+  width: 118px;
+  height: 48px;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#basket {
+  width: 360px;
+  height: 360px;  
+  background: #FFFFFF;
+  border: 1px solid #B0B0B0;
+  box-sizing: border-box;
+  border-radius: 4px 0px 4px 4px;
+  right: 54.5%;
+  top: 22%;
+  float: left;
+  position: relative;
+  z-index: 1;
+  display: none;
+}
+
+.CartButton:hover + #basket{
+  display: block;
+}
+
+#basket:hover{
+  display: block;
+}
+
+.headerTableArea{
+  width: 100%;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+  grid-area: header;
+}
+.headerTableArea .brand{
+  width: 30%;
+  height: 100px;
+  float: left;
+}
+.headerTableArea .search{
+  width: 50%;
+  height: 100px;
+  float: left;
+}
+.headerTableArea .cartButton{
+  width: 20%;
+  height: 100px;
+  float: right;
+}
+
+.productInBasket{
+  width: 234px;
+  height: 72px;
+  margin-left: 5%;
+  margin-top: 5%;
+  float: left;
+
+}
+
+.imgInBasket{
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+.imgInBasket img{
+  width: 40px;
+  height: 59.23px;
+  float: left;
+}
+.Product img{
+  position: absolute;
+  width: 224px;
+  height: 332px;
+  }
+
+.rightSide{
+  width: 80%;
+  height: 100%;
+  float: left;
+}
+
+.productInfo{
+  width: 100%;
+  margin-left: 5%;
+}
+
+.removeButton{
+  width: 49px;
+  height: 18px;
+  margin-left: 5%;
+  margin-top: 8%;
+  background: #FFFFFF;
+  border: 1px solid #F90000;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+.removeText{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;  
+  display: block;
+  align-items: center;
+  text-align: center;  
+  color: #F90000;
+  
+}
+.dropdown {
+  position: relative;
+  float: right;
+  border: 1px solid #B4B4BB;
+  box-sizing: border-box;
+  border-radius: 4px;
+  right: 0.4%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#373737;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #1c59d1; color:white}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.OrderButtonWrap{    
+  width: 118px;
+  height: 48px;
+  /* Setup */
+  position: relative;
+  position: relative;
+  display: inline-block;
+}
+
+.OrderButtonText{
+  width: 118px;
+  height: 48px;
+  margin-left: 10%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 143%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #B0B0B0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Order ul li{
+  cursor: pointer;
+}
+
+.Brand ul li{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: #646464;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 9px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  margin-left: 1%;
+}
+
+.pagination a{
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  border-radius: 9px;
+  padding: 8px 16px;
+}
+
