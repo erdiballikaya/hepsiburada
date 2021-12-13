@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import * as tagActions from "../../redux/actions/tagActions";
 import * as basketActions from "../../redux/actions/basketActions";
-import products from '../../productsData/products';
 
 class ProductsComponent extends Component {
 
