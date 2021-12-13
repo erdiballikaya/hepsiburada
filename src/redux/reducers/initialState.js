@@ -4,6 +4,6 @@ export default {
     tagColors: [],
     tagBrands: [],
     searchString: "Iphone",
-    basket: localStorage.getItem("basketCount") === 0 ? localStorage.getItem("basketCount") : 0,
-    productsInBasket:localStorage.getItem("productsInBasket") === 0 ? JSON.parse(localStorage.getItem("productsInBasket")) : [],
+    basket: localStorage.getItem("basketCount") !== 0 ? localStorage.getItem("basketCount") : 0,
+    productsInBasket:localStorage.getItem("productsInBasket") !== 0 ? JSON.parse(localStorage.getItem("productsInBasket")) : [],
 }
