@@ -7,15 +7,19 @@ import products from '../../productsData/products';
 
 class ProductsComponent extends Component {
 
-    state = {
-        arr: [],
-        isHovered: {},
-        isAdded: {},
-        sliceStart: 0,
-        sliceEnd: 12,
-        currentPage: 1
-    };
-
+    constructor(){
+        super();
+        this.state = {
+            arr: [],
+            isHovered: {},
+            isAdded: {},
+            sliceStart: 0,
+            sliceEnd: 12,
+            currentPage: 1
+        };
+    
+    }
+    
     handleMouseEnter = index => {
         this.setState(prevState => {
             return { isHovered: { ...prevState.isHovered, [index]: true } };
@@ -57,6 +61,7 @@ class ProductsComponent extends Component {
     }
 
     nextPrevious(num){
+        debugger
         var pageNum = num;
         var newStart = (pageNum * 12) - 12;
         var newEnd = pageNum * 12;
